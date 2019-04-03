@@ -1,2 +1,2 @@
 # writeLeetcode
-write some algorithm questions
+write some algorithm questions on LeetCode
