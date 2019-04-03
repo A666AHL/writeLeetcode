@@ -1,2 +1,2 @@
-# WeChat_SmallApp
-A small app of WeChat
+# writeLeetcode
+write some algorithm questions
