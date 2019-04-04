@@ -8,7 +8,7 @@ leetcode周赛130
 
 ## week6_shared
 
-这周分享一到题leetcode44，我暂时没看其他的做法，还不知道自己的做法多傻逼ヾ(｡ꏿ﹏ꏿ)ﾉﾞ，一大波代码来袭:fist_oncoming:
+这周分享一道题leetcode44，我暂时没看其他的做法，还不知道自己的做法多傻逼ヾ(｡ꏿ﹏ꏿ)ﾉﾞ，一大波代码来袭:fist_oncoming:
 
 ```c++
 class Solution {
