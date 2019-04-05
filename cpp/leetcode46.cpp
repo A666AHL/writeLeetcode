@@ -1,4 +1,4 @@
-// leetcode46.È«ÅÅÁĞ
+// leetcode46.å…¨æ’åˆ—
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -10,7 +10,7 @@ vector<vector<int>> permute(vector<int>& nums) {
     {
         return res;
     }
-    else if(len == 1)	// µİ¹é½áÊø 
+    else if(len == 1)	// é€’å½’ç»“æŸ 
     {
         temp.emplace_back(nums[0]);
         res.emplace_back(temp);
@@ -22,7 +22,7 @@ vector<vector<int>> permute(vector<int>& nums) {
             vector<int> temp(nums.begin(), nums.end());
             temp.erase(temp.begin() + k);
             k++;
-            for(auto j : permute(temp)) {	// µİ¹é 
+            for(auto j : permute(temp)) {	// é€’å½’ 
                 j.emplace(j.begin(), i);
                 res.emplace_back(j);
             }
