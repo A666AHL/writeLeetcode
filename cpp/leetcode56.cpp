@@ -11,11 +11,10 @@ class Solution {
 public:
     vector<Interval> merge(vector<Interval>& intervals) {
 		// lambda sort根据start进行排序
-        sort(intervals.begin(), intervals.end(), [](auto a, auto b) {return a.start < b.start;});
-        vector<Interval> res;
-        int len = intervals.size();
-        int len1 = 0;
-		
+		sort(intervals.begin(), intervals.end(), [](auto a, auto b) {return a.start < b.start;});
+		vector<Interval> res;
+		int len = intervals.size();
+		int len1 = 0;
 		for(int i = 0; i < len; i++)
 		{
 			if(len1 == 0)
@@ -44,6 +43,6 @@ public:
 				}
 			}
 		}
-        return res;
+		return res;
     }
 };
