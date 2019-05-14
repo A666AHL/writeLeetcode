@@ -1,4 +1,4 @@
-// leetcode99.Recover Binary Search Tree
+// leetcode99. Recover Binary Search Tree
 class Solution {
 public:
 	TreeNode *p1, *p2, *pre;
