@@ -20,7 +20,7 @@ class Solution {
             if(nums[i] + dp[i-2] > dp[i-1]) {   // 放弃i-1去打劫i
                 dp[i] = nums[i] + dp[i-2];
             }
-            else if(i > 1){  // 依然打劫i-1
+            else {  // 依然打劫i-1
                 dp[i] = dp[i-1];
                 next[i] = true;
             }   
